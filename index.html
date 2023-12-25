@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interativo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div id="container">
+    <div id="mapa">
+        <div id="player"></div>
+        <div class="objeto" style="top: 100px; left: 150px;"></div>
+        <!-- Adicione outros objetos conforme necessário -->
+    </div>
+</div>
+
+<button onclick="moverMapa('esquerda')">Esquerda</button>
+<button onclick="moverMapa('direita')">Direita</button>
+<button onclick="moverMapa('cima')">Cima</button>
+<button onclick="moverMapa('baixo')">Baixo</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>

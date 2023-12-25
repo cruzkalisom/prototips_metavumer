@@ -1,0 +1,38 @@
+#container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 2px solid gray; /* Apenas para visualização */
+    margin: 50px auto; /* Centraliza a div horizontalmente */
+    overflow: hidden; /* Garante que qualquer conteúdo excedente não seja visível */
+}
+
+#mapa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px; /* Largura e altura dobradas para simular o "infinito" */
+    height: 1000px;
+    border: 1px solid black;
+}
+
+
+#player {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.objeto {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+}
